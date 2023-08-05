@@ -1,0 +1,24 @@
+.contenedor{
+    display: flex;
+    justify-content: center;
+}
+
+.contenedor2{
+    display: inline-flex;
+    flex-wrap: wrap;
+    padding: 2rem;
+}
+
+.caja{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2rem;
+    width: fit-content;
+    border-style: solid;
+}
+
+.number{
+    padding-left: 0.2rem;
+    padding-right: 0.2rem;
+}
