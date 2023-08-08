@@ -23,6 +23,7 @@ class App {
 
     private initMiddlewares(){
         //this.app.use(bodyParser)
+        this.app.use(express.json())
     }
 
     private postMiddleWares(){
